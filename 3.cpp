@@ -21,9 +21,7 @@ void sortArray(double* arr1, string* arr2, size_t n) {
                 arr1[i] = arr1[j];
                 arr1[j] = zamenaDoub;
 
-                zamenaStr = arr2[i];
-                arr2[i] = arr2[j];
-                arr2[j] = zamenaStr;
+
             }
         }
     }
